@@ -4,4 +4,4 @@ form https://mantas.info/code/simple_esn/ by the author Dr. Mantas Lukoševičiu
 and easy to generalize. The ideas are taken form the paper by the same author:
 
 Mantas Lukoševičius:
-A practical guide to applying echo state networks In
+A practical guide to applying Echo State Networks
