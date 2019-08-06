@@ -5,3 +5,11 @@ and easy to generalize. The ideas are taken form the paper by the same author:
 
 Mantas Lukoševičius:
 A practical guide to applying Echo State Networks
+
+The data to test our model working is the same as used by the aforementioned author i.e Mackey Glass data
+
+## Modifications:
+
+- Made the ESN more modular and provided easy to tune hyperparameters
+- Implementations for both already initialized starting state (for testing) and also
+  non-initialized starting state (0's) are provided.
