@@ -47,7 +47,8 @@ def _load_data(path, startLine, start, stop, prediction):
 
 """A class describing an Echo State Network that can be trained on a single dataset
    and will contain the weights to the training based on the data provided. Thus we 
-   can create several instances of ESN each trained on different data"""
+   can create several instances of ESN each trained on different data. The ESN accepts
+   only a single variable data and generates a single variable data as a result."""
 class ESN(object):
     
     def __init__(self, leakRate, inSize, outSize, reservoirSize, spectralRadius = 1.25):
